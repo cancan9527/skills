@@ -1,0 +1,7 @@
+interface:
+  display_name: "PRD审查"
+  short_description: "审查PRD并输出阻塞问题、高风险项、缺失项与补写建议"
+  default_prompt: "Use $prd-review-checklist to review this PRD and identify blocking issues, risks, missing items, and rewrite suggestions."
+
+policy:
+  allow_implicit_invocation: true

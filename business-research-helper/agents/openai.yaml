@@ -1,0 +1,7 @@
+interface:
+  display_name: "业务调研助手"
+  short_description: "帮助产品经理做业务摸底、设计调研问题、整理访谈结果，并为后续需求和PRD补齐关键信息。"
+  default_prompt: "Use $business-research-helper to prepare or organize business research for this topic, including调研提纲, 业务现状整理, 关键痛点与风险, and 后续需求待补问题 when relevant."
+
+policy:
+  allow_implicit_invocation: true

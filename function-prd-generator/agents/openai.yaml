@@ -1,0 +1,7 @@
+interface:
+  display_name: "功能PRD生成"
+  short_description: "把零散需求、会议纪要、原型或半成品文档整理成可评审的功能PRD初稿，并输出待确认问题与风险依赖。"
+  default_prompt: "Use $function-prd-generator to turn this feature requirement into a structured PRD draft with PRD正文, 待确认问题, and 风险与依赖."
+
+policy:
+  allow_implicit_invocation: true
